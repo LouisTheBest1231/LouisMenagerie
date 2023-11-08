@@ -1,4 +1,22 @@
 .navbar_content{
-    margin: 10px;
+  
     background-color: white;
+    
+    
+    display: flex;
+    align-items: center;
+
+    padding-left: 15px;
+    height: 40px;
+    gap:10px
+}
+.navbar_element{
+    background-color: transparent;
+}
+
+
+
+.navbar_element img{
+    background-color: transparent;
+    width: 25px;height: 25px;
 }

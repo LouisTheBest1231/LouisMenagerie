@@ -5,8 +5,18 @@
         local("Hack"), ;
 }
 
+:root{
+    --console-green: #06D300;
+    --console-black: black;
+    --console-white: white;
+}
+
+
 *{
-    background-color: black;
+
+
+
+    background-color: var(--console-black);
 
     font-family: "HACK";
     margin: 0;

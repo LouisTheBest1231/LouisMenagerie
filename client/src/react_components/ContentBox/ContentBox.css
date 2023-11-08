@@ -1,15 +1,9 @@
 .content_box{
-    background-color: black;
-    color: #06D300;
+    background-color: var(--console-black);
+    color: var(--console-green);
     
     margin: 20px;
     margin-top: 60px;
     
 
-}
-
-
-.content_box_title{
-    font-size: 2rem;
-    text-align: center;
 }
