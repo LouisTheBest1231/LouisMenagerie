@@ -1,0 +1,44 @@
+.mainpage{
+}
+
+.mainpage_title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+.mainpage_maininfo{
+
+    margin-top: 50px;
+    
+
+    display: flex; flex-flow: row;
+    flex-wrap: wrap; align-items: center;
+
+    
+}
+
+.mainpage_maininfo_logo{
+    white-space: pre-wrap;
+
+    text-align: center;
+   
+    font-size: 3rem;
+    flex: 1;
+    min-width: 275px;
+}
+.mainpage_maininfo_text{
+    border: 4px dashed var(--console-white);
+    text-align: left;
+
+    margin:10px;
+    
+    min-width: 400px;
+    flex: 3;
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.mainpage_maininfo_text_bullets{
+    display: flex; justify-content: center;
+    
+}
