@@ -6,11 +6,26 @@
     align-items: center;
    
 }
+
+.navbar_buttons_active{
+    background-color: transparent;
+    padding: 10px;
+
+    display: flex; flex-direction: row;
+    align-items: center;
+    
+    cursor: pointer;
+    user-select: none;
+    font-weight: bold;
+}
+
 .navbar_buttons:hover{
     cursor: pointer;
     user-select: none;
     font-weight: bold;
 }
+
+
 
 .navbar_buttons .EMPTY{
     background-color: transparent;
@@ -21,6 +36,11 @@
     display: none;
 }
 
+.navbar_buttons_active .EMPTY{
+    background-color: transparent;
+    padding: 5px;
+    display: none;
+}
 
 .navbar_buttons .NOTEMPTY{
     background-color: transparent;
@@ -34,4 +54,11 @@
     
 }
 
+.navbar_buttons_active .NOTEMPTY{
+    background-color: transparent;
+    text-align: right;
+    width: 10px;
+    display: inline;
+    
+}
 

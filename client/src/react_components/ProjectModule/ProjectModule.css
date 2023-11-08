@@ -1,0 +1,9 @@
+
+
+.projectmodule{
+    background-color: transparent;
+    border: 0.5rem solid var(--console-green);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2rem;
+}

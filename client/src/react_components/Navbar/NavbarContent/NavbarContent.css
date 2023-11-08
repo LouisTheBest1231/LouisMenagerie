@@ -10,10 +10,28 @@
     height: 40px;
     gap:10px
 }
-.navbar_element{
+
+.navbar_content a{
+    text-decoration: none;
     background-color: transparent;
+    color: inherit;
 }
 
+.navbar_element{
+    background-color: transparent;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar_element div{
+    background-color: black;
+    color: var(--console-white);
+    padding: 4px;
+    border-radius: 8px;
+}
 
 
 .navbar_element img{
