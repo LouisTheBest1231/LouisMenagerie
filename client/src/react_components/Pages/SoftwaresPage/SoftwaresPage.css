@@ -2,6 +2,8 @@
 .softwarespage_title{
     font-size: 3rem;
     text-align: center;
+  
+    
 }
 
 .softwarespage_content{
@@ -23,6 +25,7 @@
     border-left: 1rem solid var(--console-green);
     font-weight: bold;
     font-size: 1rem;
+    
 }
 .softwarespage_subtitle div{
     background-color: transparent;
