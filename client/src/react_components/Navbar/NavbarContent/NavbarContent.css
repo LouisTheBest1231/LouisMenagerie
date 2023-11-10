@@ -1,3 +1,35 @@
+.navbar_content_parent{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 40px;
+}
+
+
+.navbar_hamburger{
+    background-color: var(--console-white);
+    display: flex;
+    width: 50px;
+
+    display: none;
+}
+
+.navbar_hamburger_logo:hover{
+
+    cursor: pointer;
+    
+}
+
+.navbar_hamburger_logo{
+
+    font-size: 2rem;
+    background-color: transparent;
+    
+}
+
 .navbar_content{
   
     background-color: white;
@@ -7,7 +39,6 @@
     align-items: center;
 
     padding-left: 15px;
-    height: 40px;
     gap:10px
 }
 
@@ -37,4 +68,16 @@
 .navbar_element img{
     background-color: transparent;
     width: 25px;height: 25px;
+}
+
+
+
+@media screen and (max-width:800px){
+    .navbar_element_LM{
+        display: none;
+    }
+
+    .navbar_hamburger{
+        display: block;
+    }
 }
