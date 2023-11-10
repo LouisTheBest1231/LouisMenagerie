@@ -24,8 +24,11 @@ export default function NavbarContent(){
 
             <div className="navbar_element_games">
                 <CustomLink to="/games" text="Games"/></div>
-            <div><CustomLink to="/webpages" text="Webpages"/></div>
-            <div><CustomLink to="/donate" text="Donate"/></div>
+
+            <div className="navbar_element_webpages">
+                <CustomLink to="/webpages" text="Webpages"/></div>
+
+            <div className=""><CustomLink to="/donate" text="Donate"/></div>
             <div><CustomLink to="/about" text="About"/></div>
             
             
