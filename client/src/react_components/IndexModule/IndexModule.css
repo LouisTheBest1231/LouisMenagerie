@@ -1,0 +1,34 @@
+.indexmodule{
+    width: var(--sidebar-width);
+    background-color: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+
+    height: calc(100vh - 65px);
+    overflow-y: scroll;
+
+
+}
+.indexmodule_list{
+    padding-top: 20px; padding-bottom: 20px;
+}
+.indexmodule_list ul{
+    padding-top: 20px; padding-left: 40px; padding-bottom: 20px;
+    font-weight: bold;
+    color: var(--text-color);
+
+
+}
+
+.indexmodule_list ul li{
+    margin-left: 15px; margin-top: 5px;
+    font-weight: normal;
+    padding: 5px;
+    list-style-type: none;
+    color: var( --color-fg-3);
+}
+
+.indexmodule_list ul li:hover{
+    color: var(--text-color);
+    cursor: pointer;
+}
