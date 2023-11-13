@@ -1,9 +1,14 @@
 import "./Footer.css"
 
 export default function Footer(){
+
+    function getYear(){
+        return new Date().getFullYear();
+    }
+
     return (
         <div className="footer">
-            © 2023 Louis-Etienne Messier
+            © {getYear()} Louis-Etienne Messier
         </div>
     );
 }

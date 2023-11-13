@@ -2,7 +2,7 @@
     --color-bg:#121212;
     --color-fg-1:#383838;
     --color-fg-2:#4a4a4a;
-    --color-fg-3:#5f5f5f;
+    --color-fg-3:#737373;
     --border-radius:30px;
     --text-color:white;
     color-scheme: dark;
@@ -43,7 +43,7 @@
 
 body{
     background-color: var(--color-bg);
-    color:white;
+    color: var(--text-color);
 
     
 
@@ -62,7 +62,7 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100%;
+
     
 }
 .fixed_container{
