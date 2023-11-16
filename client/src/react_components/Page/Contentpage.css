@@ -1,0 +1,28 @@
+
+.contentpage h1{
+
+    margin-bottom: 50px;
+}
+
+
+.contentpage h5{
+    margin-left: 30px;
+    color: var(--color-special1);
+}
+
+
+.contentpage p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    line-height: 2.5;
+    color: var(--text-color-alt);
+}
+
+.contentpage span{
+    color: var(--color-special2);
+    font-weight: bold;
+}
+
+.contentpage address{
+    text-decoration: underline;
+}

@@ -4,7 +4,9 @@
     border-bottom: solid 1px var(--color-fg-1);
     justify-content: space-between;
     align-items: center;
-    background-color: var(--color-bg)
+    background-color: var(--color-bg);
+    position: relative;
+   
 }
 
 .navbar_leftside{
@@ -12,7 +14,7 @@
     font-size: 1.5rem;
     font-weight: bold;
     margin-left: 30px;
-
+    
     display: flex;
     align-items: center;
     gap: 20px;
@@ -41,8 +43,8 @@
 }
 
 .navbar img{
-    height: 50px;
-    width: 50px;
+    width: calc(100px * 0.8);
+    height: calc(60px * 0.8)
 }
 .navbar li{
     list-style-type: none;

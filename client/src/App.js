@@ -11,7 +11,6 @@ function App() {
 
           <div className="fixed_container">
             {<Navbar />}
-            
             {<IndexModule />}
           </div>
   

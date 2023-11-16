@@ -1,6 +1,6 @@
 import "./Navbar.css";
-import logoDark from "./images/LogoDark80x80.png"
-import logoLight from "./images/LogoLight80x80.png"
+import logoDark from "./images/Logo3.0_Dark.png"
+import logoLight from "./images/Logo3.0_Light.png"
 export default function Navbar(){
 
     return (

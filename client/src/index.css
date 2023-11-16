@@ -1,4 +1,6 @@
 :root{
+    --color-special1:#13a10e;
+    --color-special2:#FF0000;
     --color-bg:#121212;
     --color-fg-1:#383838;
     --color-fg-2:#4a4a4a;
@@ -21,6 +23,7 @@
         --color-fg-2:#d0d0d0;
         --color-fg-3:#bbbbbb;
         --text-color:black;
+
         color-scheme: light;
     }
 }
@@ -61,7 +64,8 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+   
+  
 
     
 }
@@ -70,7 +74,7 @@ body{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-
+    
 }
 
 .not_fixed{
@@ -80,8 +84,10 @@ body{
     height: 100%;
     display: flex;
     flex-direction: column;
+    
+    max-width: calc(var(--content-width) - 400px);
 
-    max-width: var(--content-width)
+    
 }
 
 @media screen and (max-width: 1415px) {

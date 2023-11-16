@@ -1,3 +1,5 @@
+import AboutPage from "./AboutPage/AboutPage";
+import DonatePage from "./DonatePage/DonatePage";
 import Footer from "./Footer/Footer";
 import "./Page.css"
 
@@ -6,11 +8,8 @@ export default function Page() {
         <div className="page">
             <div className="page_content">
 
-                {TESTING(3).map((n) => (
-                    <div>hello hello
-                    </div>
-                ))}
-
+                <AboutPage/>
+                <DonatePage/>
             </div>
             <Footer />
         </div>
@@ -18,10 +17,3 @@ export default function Page() {
 }
 
 
-function TESTING(n) {
-    const test = []
-    for (let i = 0; i < n; i++) {
-        test.push(i)
-    }
-    return test
-}
