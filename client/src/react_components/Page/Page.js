@@ -9,7 +9,6 @@ export default function Page() {
             <div className="page_content">
 
                 <AboutPage/>
-                <DonatePage/>
             </div>
             <Footer />
         </div>
