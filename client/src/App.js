@@ -7,14 +7,14 @@ import Page from "./react_components/Page/Page";
 function App() {
   return (
     <div className="app">
-      <div className="fixed">
+      
 
-          <div className="fixed_container">
-            {<Navbar />}
-            {<IndexModule />}
-          </div>
+          
+      {<Navbar />}
+      {<IndexModule/>}
+       
   
-      </div>
+     
         
       <div className="not_fixed">
         <Page/>
