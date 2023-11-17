@@ -1,11 +1,18 @@
 .navbar{
     display: flex;
-    height: 65px; 
+    
     border-bottom: solid 1px var(--color-fg-1);
     justify-content: space-between;
     align-items: center;
     background-color: var(--color-bg);
-    position: relative;
+    
+
+    height: 65px; 
+    max-width: var(--page-width);
+    top: 0;
+    left: 50%;right: -50%;
+    transform: translateX(-50%);
+    position: fixed;
    
 }
 
