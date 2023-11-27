@@ -1,49 +1,82 @@
+import { useEffect, useState } from "react";
 import CustomLink from "../HelperModules/CustomLink";
 import "./IndexModule.css"
 
-export default function IndexModule(){
+
+export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
 
     let radius = 5;
+    
+    const [indexModuleClass, setIndexModuleClass] = useState("indexmodule");
+    useEffect(()=>{
+        if(isDropDown && isScreenShort){
+            setIndexModuleClass("indexmodule_short");
+        }
+        else if(isScreenShort){
+            setIndexModuleClass("indexmodule_short_hidden");
+        }
+        else{
+
+            setIndexModuleClass("indexmodule");
+        }
+    }, [isScreenShort, isDropDown]);
+
+    useEffect(()=>{
+        if(isScreenShort){
+            setIsDropDown(false);
+        }
+    }, [isScreenShort]);
+
     return(
-        <div className="indexmodule">
+        <div className={indexModuleClass}>
             <ul className="indexmodule_list">
                 <ul>
                     Info
-                    <CustomLink to={"/"} name={"About"} radius={radius}/>
-                    <CustomLink to={"/donate"} name={"Donate"} radius={radius}/>
+                    <IndexModuleLink to={"/"} name={"About"}/>
+                    <IndexModuleLink to={"/donate"} name={"Donate"}/>
                 </ul>
                 <ul>
                     Games
-                    <CustomLink to={"/notasandbox"} name={"Not A Sandbox"} radius={radius}/>
-                    <CustomLink to={"/blackjackcoop"} name={"BlackJack Coop"} radius={radius}/>
-                    <CustomLink to={"/programmer101"} name={"Programmer 101"} radius={radius}/>
-                    <CustomLink to={"/thegame"} name={"The Game"} radius={radius}/>
-                    <CustomLink to={"/apagos"} name={"Apagos"} radius={radius}/>
+                    <IndexModuleLink to={"/notasandbox"} name={"Not A Sandbox"}/>
+                    <IndexModuleLink to={"/blackjackcoop"} name={"BlackJack Coop"} />
+                    <IndexModuleLink to={"/programmer101"} name={"Programmer 101"} />
+                    <IndexModuleLink to={"/thegame"} name={"The Game"} />
+                    <IndexModuleLink to={"/apagos"} name={"Apagos"} />
                 </ul>
                 <ul>
                     Softwares
-                    <CustomLink to={"/testingogre"} name={"Testing Ogre"} radius={radius}/>
+                    <IndexModuleLink to={"/testingogre"} name={"Testing Ogre"}/>
                 </ul>
                 <ul>
                     Webpages
-                    <CustomLink to={"/louismenagerie"} name={"Louis' Menagerie"} radius={radius}/>
+                    <IndexModuleLink to={"/louismenagerie"} name={"Louis' Menagerie"}/>
                 </ul>
                 <ul>
                     Processing Shenanigans
-                    <CustomLink to={"/nba2k"} name={"N-B-A 2k20"} radius={radius}/>
-                    <CustomLink to={"/rpg"} name={"The Boring RPG"} radius={radius}/>
-                    <CustomLink to={"/td"} name={"A-Political TD"} radius={radius}/>
+                    <IndexModuleLink to={"/nba2k"} name={"N-B-A 2k20"}/>
+                    <IndexModuleLink to={"/rpg"} name={"The Boring RPG"}/>
+                    <IndexModuleLink to={"/td"} name={"A-Political TD"}/>
                 </ul>
                 <ul>
                     Humble Console Beginning
-                    <CustomLink to={"/consolesnake"} name={"Snake!!"} radius={radius}/>
-                    <CustomLink to={"/consolecalculator"} name={"Calculator"} radius={radius}/>
-                    <CustomLink to={"/consoletetrix"} name={"Tetris"} radius={radius}/>
-                    <CustomLink to={"/consolehangman"} name={"Hangman"} radius={radius}/>
+                    <IndexModuleLink to={"/consolesnake"} name={"Snake!!"}/>
+                    <IndexModuleLink to={"/consolecalculator"} name={"Calculator"}/>
+                    <IndexModuleLink to={"/consoletetrix"} name={"Tetris"}/>
+                    <IndexModuleLink to={"/consolehangman"} name={"Hangman"}/>
                 </ul>
             </ul>
         </div>
     );
+
+
+    function onClick(){
+        setIsDropDown(false);
+    }
+    function IndexModuleLink({to, name}){
+        return (
+            <CustomLink to={to} name={name} radius={radius} onClick={onClick}/>
+        );
+    }
 }
 
 
