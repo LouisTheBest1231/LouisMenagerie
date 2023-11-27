@@ -1,7 +1,7 @@
+import { useEffect } from "react";
 import "../Contentpage.css"
 
 export default function AboutPage(){
-
     return (
         <div className="contentpage">
             <h1>Welcome to Louis' Menagerie!</h1>
