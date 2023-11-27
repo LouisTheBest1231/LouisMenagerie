@@ -8,4 +8,5 @@
 
 .page_content{
     flex-grow: 1;
+    max-width: calc(var(--content-width) - 400px);
 }

@@ -10,7 +10,7 @@
     height: 65px; 
     max-width: var(--page-width);
     top: 0;
-    left: 50%;right: -50%;
+    left: 50vw;right: -50vw;
     transform: translateX(-50%);
     position: fixed;
    
@@ -55,18 +55,14 @@
 }
 .navbar li{
     list-style-type: none;
+    
 }
-
-.navbar a{
+.navbar a{  
     padding: 10px;
     text-decoration: none;
-    color : var(--color-fg-3);
-    font-weight: bold;
+
 }
 
-.navbar a:hover{
-    color:var(--text-color);
-}
 
 
 

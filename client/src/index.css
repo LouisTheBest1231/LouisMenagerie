@@ -45,7 +45,6 @@
 body{
     background-color: var(--color-bg);
     color: var(--text-color);
-
     
 
 }
@@ -53,12 +52,12 @@ body{
 .not_fixed{
     
     margin-top: 65px;
-    margin-left:calc(calc(100% - var(--page-width)) / 2 + var(--sidebar-width));
+    margin-left:calc(calc(100% - var(--page-width)) / 2 + var(--sidebar-width) + 10px);
     height: 100%;
     display: flex;
     flex-direction: column;
     
-    max-width: calc(var(--content-width) - 400px);
+    max-width: calc(var(--content-width));
 
     
 }
