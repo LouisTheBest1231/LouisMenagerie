@@ -11,6 +11,16 @@
     font-size: 0.9em;
     
 }
+.indexmodule_short{
+    display: block;
+    width: 100%;
+    margin-left: 20px;
+  
+}
+.indexmodule_short_hidden{
+    display: none;
+}
+
 .indexmodule_list{
     padding-top: 20px; padding-bottom: 20px;
 }
