@@ -1,5 +1,7 @@
 
 import imageTitle from "./Images/notasandbox.png"
+import mouseHook from "./Images/Epic_project_-_testScene_-_Windows_Mac_Linux_-_Unity_2021.3.16f1_Personal__DX11__2023-04-11_00-47-50.mp4"
+import schematicsPicture from "./Images/Epson_021620231612061514.jpg"
 export default function NotASandboxPage(){
     return(
         <div className="contentpage">
@@ -37,8 +39,37 @@ export default function NotASandboxPage(){
 
                 
             </p>
+
+
+            
             <h2>Overview of my tasks</h2>
+            <h5>With great power comes great responsability</h5>
+            <p>
+                As the unofficial project director of <span>Not a Sandbox</span>, I had a lot of responsabilities. Not only did I have to draft the schematics to 
+                solidy our ideas of the project. I also had to build the foundation of the framework of the project, as one of the most experienced programmer on the team.
+                Moreover, I had to complete my own part of scientific research and programming.
+            </p>
+            <h3>Schematics</h3>
+            <p>I had to do the UI drafts and select the development environment. The UI drafts was fairly easy. I went for a very basic, almost cartoony style (But I didn't design the Main Menu, that's why it's kinda weird ahahah) :
+                <img src={schematicsPicture} alt="Picture of the software blueprint made on paper"></img>
+               For the development environment, we ended up choosing <i>Unity</i>. We put aside every physics library included in the <i>Unity Game Engine</i>, and used it only as a barebone game engine with easy to 
+               use UI fonctionalities. I think it was a good choice, because it allowed us to completely focus on the <span>Physics</span> part of the software without worrying about graphics. 
+            </p>
+            <h3>Project's Framework</h3>
             <p></p>
+            <h3>Basic Dynamics</h3>
+            <p></p>
+            <h3>Rotational Dynamics</h3>
+            <p></p>
+            <h3>Collision Detection</h3>
+            <p></p>
+            <h3>Collision Solving</h3>
+            <p></p>
+            <h3>Fluid Dynamics</h3>
+            <p></p>
+
+
+
             <h2>Programs/Tools</h2>
             <p></p>
             <h2>Things I learned</h2>
