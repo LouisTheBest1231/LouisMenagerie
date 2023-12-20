@@ -39,6 +39,21 @@
     color: var(--color-special2);
 }
 
+.contentpage ol{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: var(--color-special2);
+}
+
+.contentpage mathmiddle{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contentpage img{
     width: 100%;
     background-color: var(--color-fg-1);

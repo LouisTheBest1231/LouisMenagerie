@@ -56,11 +56,40 @@ export default function NotASandboxPage(){
                use UI fonctionalities. I think it was a good choice, because it allowed us to completely focus on the <span>Physics</span> part of the software without worrying about graphics. 
             </p>
             <h3>Project's Framework</h3>
-            <p></p>
+            <p>
+                Because we wanted to implement everything from pretty much scratch, we had to built our own simulation framework. And because we were complete beginners, we had to 
+                reach out for outside sources. One of the most important document we found was a PDF from ULaval (A well knowned University here in Quebec) called "<a href="http://www2.ift.ulaval.ca/~dupuis/Modelisation%20et%20animation%20par%20ordinateur%20IFT-66819%20et%20IFT-22726/Simulation%20de%20corps%20rigides/Simulation%20de%20corps%20rigides.pdf">
+                    Simulation de corps rigides
+                </a>". There is no name on the document, but a <span>big thanks to whoever made it!</span>. The document touches a lot of important aspects, one of which was the idea of <span>discrete timesteps</span>.
+            </p>
+            <p>
+                The idea of discrete timesteps is important because we have a limited amount of processing power, so we can't simulate every infinitesimal interval of time between each second.
+                So we have to implement a certain amount of <i>ticks</i> per second where the physics calculation happens. Therefore, we had to implement in Unity some kind of <span>Game Loop</span> that looked like this : 
+                <ol>
+                    <li>Get the informational data of the objects in the scene (speed, positions, etc.) </li>
+                    <li>Detect collisions</li>
+                    <li>Resolve the collisions and update the informational data of the objects</li>
+                    <li>Calculate the physics and displace the objects based on the fixed timestep</li>
+                    <li>Draw the objects of the screen</li>
+                    <li>Repeat!!</li>
+                </ol>
+            </p>
+
             <h3>Basic Dynamics</h3>
-            <p></p>
+            <p>
+                This is the easy part, that is if you remember well your basic highschool physics class! Essentially the goal of this part was to implement the 
+                <span> 3 basics <a href="https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/">Newtonian Laws of Motion</a></span>:
+                <mathmiddle>
+                    <div>Law of Conservation of motion</div>
+                    <div>Law of Force / Mass / Acceleration</div>
+                    <div>Law of Action - Reaction</div>
+                </mathmiddle>
+                These laws were fairly easy to implement, consisting of only a couple of equations. 
+            </p>
             <h3>Rotational Dynamics</h3>
-            <p></p>
+            <p>
+                This is were the complexity begins (Ouch!). 
+            </p>
             <h3>Collision Detection</h3>
             <p></p>
             <h3>Collision Solving</h3>
