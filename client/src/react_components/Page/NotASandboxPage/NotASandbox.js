@@ -1,6 +1,7 @@
 
 import imageTitle from "./Images/notasandbox.png"
 import mouseHook from "./Images/Epic_project_-_testScene_-_Windows_Mac_Linux_-_Unity_2021.3.16f1_Personal__DX11__2023-04-11_00-47-50.mp4"
+import movieCollisionSolving from "./Images/movie_013.mp4"
 import schematicsPicture from "./Images/Epson_021620231612061514.jpg"
 export default function NotASandboxPage(){
     return(
@@ -88,14 +89,73 @@ export default function NotASandboxPage(){
             </p>
             <h3>Rotational Dynamics</h3>
             <p>
-                This is were the complexity begins (Ouch!). 
+                This is were the complexity begins (Ouch!). Rotationnal Dynamic involves these rotationnal informations : 
+                <mathmiddle>
+                    <div>Rotationnal Position (θ)</div>
+                    <div>Rotationnal Speed (ω)</div>
+                    <div>Rotationnal Acceleration (α)</div>
+                </mathmiddle>
+                These are basically homologous to their basic dynamics counterpart (position, speed, acceleration). Another important aspect 
+                of Rotationnal Dynamic is the idea of Torque (τ), of moment of Inertia (I) and of Center of Mass (CM). When you apply a force to an object, the rotation of the object will evolve depending
+                on <span>where</span> the force is applied and the <span>shape of the object</span>. There is much subtilities to this physic phenomenon. I recommend 
+                this <a href="https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics">article</a>, by Nilson Souto, that does a deep dive into 
+                the algorithm necessary to simulate such behavior. 
             </p>
+
+
             <h3>Collision Detection</h3>
-            <p></p>
+            <p>
+                Because we weren't using any of Unity's built-in functionnalities, we had to create our own system to detect collisions. Luckily, such 
+                algorithms have been researched by people much smarter than us. We explored all kinds of algorithms because we wanted to implement as much different
+                shapes as possible into our simulation : 
+                <mathmiddle>
+                    <div>Circle vs Circle</div>
+                    <div>Circle vs Polygon</div>
+                    <div>Polygon vs Polygon</div>
+                </mathmiddle>
+                Circle vs Circle is by far the easiest type of collision detection because of the nature of such shape.
+                Circle vs Polygon is much more complex than it seems at first and the algorithm is well explored by this  
+                <a href="https://www.jeffreythompson.org/collision-detection/poly-circle.php"> article of Jeffrey Thompson</a>.
+                Finally, Polygon vs Polygon is without any doubt the most complicated collision to solve. To be able to detect collisions of such shapes,
+                we used the <span>Seperate Axis Theorem (SAT)</span>. It is a very powerful and fairly fast tool to detect collisions between <i>convex polygons</i>.
+                The basic idea behind it is to project the points of the shapes involved along every one of their respective axis. 
+                This <a href="https://www.youtube.com/watch?v=7Ik2vowGcU0&t=1946s&ab_channel=javidx9">video</a>, by <i>Javidx9</i>, is an 
+                excellent source to understand the algorithm.
+                
+                
+
+
+            </p>
+
             <h3>Collision Solving</h3>
-            <p></p>
+            <p>
+                To create a Physics Engine, it isn't enough to detect collisions, you also have to resolve them. However, you can't simply displace the objects 
+                to avoid them to phase through each other. You actually need to figure out important data like : <span>the point of collision, 
+                the current motions of the respective objects, their material type, their mass, etc.</span> Then you need to take this information and resolve the collision
+                without making Newton rise out of his grave. 
+            </p>
+            <p>  
+                At first, it was a massive headache for us because <span>it looked SOOOO complicated</span>. 
+                But in the deep abyss of the internet we managed to find this sacred document : <a href="https://www.chrishecker.com/images/e/e7/Gdmphys3.pdf">
+                https://www.chrishecker.com/images/e/e7/Gdmphys3.pdf
+                </a>. This incredible piece of wisdom, by <i>Chris Hecker</i>, goes over the hard mathematical reality of collisions of polygons. It is a very digestable 
+                and interesting piece of media that I can't recommend enough. We had to tweak and change a big part of the algorithm presented by <i>Chris Hecker</i> to fit our 
+                needs. However, the core concepts used are a programming representation of Chris' work. The results speak for themselves :
+                <video controls><source src={movieCollisionSolving}></source></video>
+            </p>
             <h3>Fluid Dynamics</h3>
-            <p></p>
+            <p>
+                After implementing the above parts, I still had a little bit of time to kill before the presentation of <span>Not a Sandbox</span>.
+                So I decided to dive into complicated stuff : fluids. I had no prior familiarity with the the physics behind fluid dynamics, so, it was a completely
+                new experience for me. The research aspect of this feature involved figuring out the <span>Navier-Stokes equations</span>. These equations are the fondamental
+                building blocks of our current understanding of how fluids work. Sadly, after much time working with them, I have to say that I still have a very basic
+                grasp of the <span>Navier-Stokes equations</span> (mostly thanks to this <a href="https://www.youtube.com/watch?v=ERBVFcutl3M">
+                youtube video</a> by <i>Numberphile</i>).
+            </p>
+
+            <p>
+                
+            </p>
 
 
 
