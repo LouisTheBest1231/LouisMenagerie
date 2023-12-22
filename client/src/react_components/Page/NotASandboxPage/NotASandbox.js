@@ -188,7 +188,7 @@ export default function NotASandboxPage(){
                         <li><a href="https://github.com/">Github</a></li>
                     </ul>
 
-                <h3>Other tools</h3>
+                <h3>Art Making</h3>
                     <ul>
                         <li><a href="https://www.gimp.org/downloads/">Gimp</a></li>
                     </ul>

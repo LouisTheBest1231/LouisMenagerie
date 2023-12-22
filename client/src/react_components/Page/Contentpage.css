@@ -9,7 +9,7 @@
 }
 .contentpage h2{
     border-top: 1px solid var(--color-fg-1);
-    margin-top: 30px;
+    margin-top: 50px;
     padding-top: 20px;
 }
 
@@ -76,4 +76,15 @@
 
 .contentpage address{
     text-decoration: underline;
+}
+
+.donate_button img{
+    min-width: none;
+    background-color: transparent;
+    border-style: none;
+    border-width: 0px;
+    box-shadow: none;
+    min-width: 100px;
+    max-width: 150px;
+
 }
