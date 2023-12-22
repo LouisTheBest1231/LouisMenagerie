@@ -2,6 +2,7 @@
 import imageTitle from "./Images/notasandbox.png"
 import mouseHook from "./Images/Epic_project_-_testScene_-_Windows_Mac_Linux_-_Unity_2021.3.16f1_Personal__DX11__2023-04-11_00-47-50.mp4"
 import movieCollisionSolving from "./Images/movie_013.mp4"
+import movieFluidSimulation from "./Images/movie_015.mp4"
 import schematicsPicture from "./Images/Epson_021620231612061514.jpg"
 export default function NotASandboxPage(){
     return(
@@ -154,20 +155,87 @@ export default function NotASandboxPage(){
             </p>
 
             <p>
-                
+                My implementation of the fluid simulation has been simplified by isolating it. Therefore, <span>Not A Sandbox</span> doesn't allow the 
+                combination of the fluid simulation and the rigidbody simulation. This choice was made early on during the development, because, as a short projet,
+                we wanted to keep it simple. The simulation is <span>particle based</span> and takes place in an isolated box where the user can change the amount of fluid and the gravity.
+            </p>
+            <p>
+                Because of our unique needs, I had to cross-reference many sources to acquire the necessary informations. These sources were the most important :
+                <ol>
+                    <li><a href="https://peeke.nl/simulating-blobs-of-fluid">Simulating blobs of fluid</a>, from Peeke, is a dumbed down interpretation 
+                    of the Navier-Stokes equations. It is a great start for newcomers like me</li>
+                    <li><a href="http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf">Particle-based Viscoelastic Fluid Simulation</a> , by 
+                    Simon Clavet, Philippe Beaudoin, and Pierre Poulin, is a very well researched paper from <i>UDM</i>. Appart from beeing very technical and a bit too
+                    complicated for a CEGEP student, it was another great look at a function project of fluid simulation!</li>
+                    <li><a href="https://www.diva-portal.org/smash/get/diva2:676516/FULLTEXT01.pdf">Interactive 2D Particle-based Fluid Simulation for Mobile Devices</a>
+                    , from Daniel Mansson, was the most important paper. It contains copious amount of details about every step of the process to create a real time
+                     optimised fluid simulation.
+                    I really recommend this read for anyone trying to dive into fluids, it is really good (it even contains pseudocode!).
+                    </li>
+                </ol>
             </p>
 
-
+            This was the first result after a couple of unsuccesful attempt : 
+            <video controls><source src={movieFluidSimulation}></source></video>
+            Pretty cool :))
 
             <h2>Programs/Tools</h2>
-            <p></p>
-            <h2>Things I learned</h2>
-            <p></p>
-            <h2>Usefull ressources</h2>
-            <p></p>
-            <h2>Download</h2>
-            <p></p>
+            <h5>From scratch but not "really" from scratch</h5>
+            <p>
+                <h3>For programming</h3>
+                    <ul>
+                        <li><a href="https://unity.com/fr">Unity</a></li>
+                        <li><a href="https://github.com/">Github</a></li>
+                    </ul>
 
+                <h3>Other tools</h3>
+                    <ul>
+                        <li><a href="https://www.gimp.org/downloads/">Gimp</a></li>
+                    </ul>
+            </p>
+
+                
+
+            <h2>Things I learned</h2>
+            <p>
+                <span>I learned about TEAMWORK.</span> I wasn't used to working alongside other programmers because my other projects consisted mainly
+                of personnel stuff. So, for the short 5 month that <span>Not A Sandbox</span> lasted, I had to learn to adapt. I had to accept the 
+                diverging opinions, the differents abilities and the different interests of my teammates. At the end, it was a real pleasure working with them, 
+                and a very fruitful experience. 
+            </p>
+
+            <p>
+                <span>I learned about PHYSICS.</span> Students often ask about the real use of what they learn in class. This is the real use of physics class!
+                I learned a lot from turning the theory into practice. I now understand much more the fundamental principles of newtonian motions!
+            </p>
+            <h2>Download</h2>
+            <p>
+                <span>Not A Sandbox</span>'s build is available for Windows' platforms only
+                <ul>
+                    <li>For the functionnal build :</li>
+                    <li>For the complete document of my scientific part (in french) : <a href="https://docs.google.com/document/d/1nOGkvZa_MkgeXtLxxSsK4pTfUSH3R8DZxHDnAe4TeM8/edit?usp=sharing">https://docs.google.com/document/d/1nOGkvZa_MkgeXtLxxSsK4pTfUSH3R8DZxHDnAe4TeM8/edit?usp=sharing</a></li>
+                    <li>For my video explaining my scientific part (in french) : <a href="https://www.youtube.com/watch?v=Eb09ooMk8_Y">https://www.youtube.com/watch?v=Eb09ooMk8_Y</a></li>
+                </ul>
+            </p>
+
+            <h2>Useful ressources</h2>
+            <p>
+                All the important sources for the project and additionnal reading!
+                <ul>
+                    <li>Clavet, Simon, et al. “Particle-based Viscoelastic Fluid Simulation.” ligum, 2005, http://www.ligum.umontreal.ca/Clavet-2005-PVFS/pvfs.pdf.</li>
+                    <li>Gaul, Randy. “How to Create a Custom 2D Physics Engine: Friction, Scene and Jump Table.” Game Development, 2013, https://gamedevelopment.tutsplus.com/tutorials/how-to-create-a-custom-2d-physics-engine-friction-scene-and-jump-table--gamedev-7756</li>
+                    <li>Javidx9. “Convex Polygon Collision.” YouTube, 2019, https://www.youtube.com/watch?v=7Ik2vowGcU0&t=1946s&ab_channel=javidx9</li>
+                    <li>Motrichuk, Alexander, and Paul Bourke. “Polygons, Meshes.” Paul Bourke, 1997, http://paulbourke.net/geometry/polygonmesh/</li>
+                    <li>“Navier-Stokes Equations - Numberphile.” YouTube, 27 August 2019, https://www.youtube.com/watch?v=ERBVFcutl3M&ab_channel=Numberphile</li>
+                    <li>Peeke. “Simulating blobs of fluid.” Peeke.nl, https://peeke.nl/simulating-blobs-of-fluid</li>
+                    <li>Penner, Robert. Simulation de corps rigides, http://www2.ift.ulaval.ca/~dupuis/Modelisation%20et%20animation%20par%20ordinateur%20IFT-66819%20et%20IFT-22726/Simulation%20de%20corps%20rigides/Simulation%20de%20corps%20rigides.pdf</li>
+                    <li>Seifert, Michael. “How to calculate the moment of inertia of convex polygon? (two-dimensions).” Physics Stack Exchange, 16 May 2022, https://physics.stackexchange.com/questions/708936/how-to-calculate-the-moment-of-inertia-of-convex-polygon-two-dimensions</li>
+                    <li>Souto, Nilson. “Video Game Physics Tutorial - Part III: Constrained Rigid Body Simulation.” Toptal, 2018, https://www.toptal.com/game/video-game-physics-part-iii-constrained-rigid-body-simulation</li>
+                    <li>Souto, Nilson. “Video Game Physics Tutorial - Part I: Rigid Body Dynamics.” Toptal, https://www.toptal.com/game/video-game-physics-part-i-an-introduction-to-rigid-body-dynamics</li>
+                    <li>Thompson, Jeffrey. “Collision Detection.” Collision Detection, https://www.jeffreythompson.org/collision-detection/poly-circle.php</li>
+                </ul>
+            </p>
+           
         </div>
         
     );

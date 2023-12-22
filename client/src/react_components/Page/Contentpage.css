@@ -64,6 +64,8 @@
 }
 
 .contentpage video{
+    margin-top: 5px;
+    margin-bottom: 5px;
     width: 100%;
     background-color: var(--color-fg-1);
     padding: 20px;
