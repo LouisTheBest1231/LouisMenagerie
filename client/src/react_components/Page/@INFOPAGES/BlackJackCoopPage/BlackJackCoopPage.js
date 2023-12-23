@@ -34,7 +34,7 @@ export default function BlackJackCoopPage() {
                         <li><a href="https://www.qt.io/">Qt</a></li>
                     </ul>
 
-                <h3>For hosting the website</h3>
+                <h3>Art Making</h3>
                     <ul>
                         <li><a href="https://www.gimp.org/downloads/">Gimp</a></li>
                     </ul>
