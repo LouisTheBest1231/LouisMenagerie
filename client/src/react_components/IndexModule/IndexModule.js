@@ -22,7 +22,7 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
     }, [isScreenShort, isDropDown]);
 
     useEffect(()=>{
-        if(isScreenShort){
+        if(!isScreenShort){
             setIsDropDown(false);
         }
     }, [isScreenShort]);
@@ -61,7 +61,6 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
                     Humble Console Beginning
                     <IndexModuleLink to={"/consolesnake"} name={"Snake!!"}/>
                     <IndexModuleLink to={"/consolecalculator"} name={"Calculator"}/>
-                    <IndexModuleLink to={"/consoletetrix"} name={"Tetris"}/>
                     <IndexModuleLink to={"/consolehangman"} name={"Hangman"}/>
                 </ul>
             </ul>
@@ -71,6 +70,7 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
 
     function onClick(){
         setIsDropDown(false);
+        
     }
     function IndexModuleLink({to, name}){
         return (

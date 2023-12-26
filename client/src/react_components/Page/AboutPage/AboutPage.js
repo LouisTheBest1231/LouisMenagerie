@@ -1,13 +1,14 @@
+import { useEffect } from "react";
 import "../Contentpage.css"
 
 export default function AboutPage(){
-
     return (
         <div className="contentpage">
             <h1>Welcome to Louis' Menagerie!</h1>
 
 
             <h2>What is it?</h2>
+            <h5>Good question!</h5>
             <p>This website is a little menagerie of unique and strange programming based projects I made.
                 You can think of it as some kind of weird modern art exhibition or some kind of dystopian unhinged zoo! 
                 But don't be scared, you are only going to uncover school asignments and personnal crazy ideas I turned into projects {" :). "}

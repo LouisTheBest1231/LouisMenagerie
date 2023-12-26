@@ -23,6 +23,7 @@ function App() {
           
       {<Navbar toggleDropDown={toggleDropDown}setIsDropDown={setIsDropDown} isDropDown={isDropDown}/>}
       {<IndexModule setIsDropDown={setIsDropDown} isDropDown={isDropDown} isScreenShort={useScreenShort()}/>}
+      
       <div className={useScreenShort() ? "not_fixed_short" : "not_fixed"}> 
         {!isDropDown &&<Page/>} 
       </div>
