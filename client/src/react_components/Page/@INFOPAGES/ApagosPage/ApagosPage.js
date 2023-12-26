@@ -14,7 +14,8 @@ export default function ApagosPage(){
             <h5>Computer Board Game!!</h5>
             <p>
                 <span>Apagos</span> is another school project! The goal of the school project was to recreate a (simple) board game with 
-                the <a href="https://www.qt.io/">Qt</a> API. So, <span>Apagos</span> is a fully fonctionnal recreation of <a href="https://fr.wikipedia.org/wiki/Apagos">this board game</a>.
+                the <a href="https://www.qt.io/">Qt</a> API. So, <span>Apagos</span> is a fully fonctionnal recreation of <a href="https://fr.wikipedia.org/wiki/Apagos">this board game</a> and 
+                allows for couch play.
                 There is some animations and <span>Drag and Drop</span> functionalities.
             </p>
 

@@ -5,12 +5,14 @@
 }
 .contentpage h3{
     margin-bottom: -20px;
+    scroll-margin-top: var(--header-height);
     
 }
 .contentpage h2{
     border-top: 1px solid var(--color-fg-1);
     margin-top: 50px;
     padding-top: 20px;
+    scroll-margin-top: var(--header-height);
 }
 
 .contentpage h5{

@@ -10,7 +10,25 @@
 
 }
 
+
+
+.page_horizontal{
+    display: flex;
+    flex-direction: row;
+}
+
 .page_content{
     flex-grow: 1;
     max-width: calc(var(--content-width) - 400px);
+    
+}
+
+.page_toc{
+    margin-left: 40px;
+}
+
+@media screen and (max-width : 1415px) {
+    .page_toc{
+        display: none;
+    }
 }
