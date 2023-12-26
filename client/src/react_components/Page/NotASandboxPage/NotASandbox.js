@@ -77,7 +77,7 @@ export default function NotASandboxPage(){
                 </ol>
             </p>
 
-            <h3 >Basic Dynamics</h3>
+            <h3>Basic Dynamics</h3>
             <p>
                 This is the easy part, that is if you remember well your basic highschool physics class! Essentially the goal of this part was to implement the 
                 <span> 3 basics <a href="https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/">Newtonian Laws of Motion</a></span>:
@@ -88,7 +88,7 @@ export default function NotASandboxPage(){
                 </mathmiddle>
                 These laws were fairly easy to implement, consisting of only a couple of equations. 
             </p>
-            <h3 >Rotational Dynamics</h3>
+            <h3>Rotational Dynamics</h3>
             <p>
                 This is were the complexity begins (Ouch!). Rotationnal Dynamic involves these rotationnal informations : 
                 <mathmiddle>
@@ -104,7 +104,7 @@ export default function NotASandboxPage(){
             </p>
 
 
-            <h3 >Collision Detection</h3>
+            <h3>Collision Detection</h3>
             <p>
                 Because we weren't using any of Unity's built-in functionnalities, we had to create our own system to detect collisions. Luckily, such 
                 algorithms have been researched by people much smarter than us. We explored all kinds of algorithms because we wanted to implement as much different
@@ -128,7 +128,7 @@ export default function NotASandboxPage(){
 
             </p>
 
-            <h3 >Collision Solving</h3>
+            <h3>Collision Solving</h3>
             <p>
                 To create a Physics Engine, it isn't enough to detect collisions, you also have to resolve them. However, you can't simply displace the objects 
                 to avoid them to phase through each other. You actually need to figure out important data like : <span>the point of collision, 
@@ -179,7 +179,7 @@ export default function NotASandboxPage(){
             <video controls><source src={movieFluidSimulation}></source></video>
             Pretty cool :))
 
-            <h2 >Programs/Tools</h2>
+            <h2>Programs/Tools</h2>
             <h5>From scratch but not "really" from scratch</h5>
             <p>
                 <h3>For programming</h3>
@@ -196,7 +196,7 @@ export default function NotASandboxPage(){
 
                 
 
-            <h2 >Things I learned</h2>
+            <h2>Things I learned</h2>
             <p>
                 <span>I learned about TEAMWORK.</span> I wasn't used to working alongside other programmers because my other projects consisted mainly
                 of personnel stuff. So, for the short 5 month that <span>Not A Sandbox</span> lasted, I had to learn to adapt. I had to accept the 
@@ -208,7 +208,7 @@ export default function NotASandboxPage(){
                 <span>I learned about PHYSICS.</span> Students often ask about the real use of what they learn in class. This is the real use of physics class!
                 I learned a lot from turning the theory into practice. I now understand much more the fundamental principles of newtonian motions!
             </p>
-            <h2 >Download</h2>
+            <h2>Download</h2>
             <p>
                 <span>Not A Sandbox</span>'s build is available for Windows' platforms only
                 <ul>
@@ -218,7 +218,7 @@ export default function NotASandboxPage(){
                 </ul>
             </p>
 
-            <h2 >Useful ressources</h2>
+            <h2>Useful ressources</h2>
             <p>
                 All the important sources for the project and additionnal reading!
                 <ul>

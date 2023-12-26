@@ -1,4 +1,8 @@
-
+.contentpage{
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
 .contentpage h1{
 
     margin-bottom: 50px;
@@ -78,6 +82,13 @@
 
 .contentpage address{
     text-decoration: underline;
+    width: 100%;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.contentpage li{
+    width: 100%;
 }
 
 .donate_button img{
