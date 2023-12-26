@@ -28,17 +28,16 @@ function MakeHeaderList(headerData){
     const headerObject = []
 
     headerData.forEach((header,index) => {
-        const {innerText, id} = header
-        if(header.nodeName == "H2"){
+        const {innerText} = header
+        if(header.nodeName === "H2"){
             header.id = String(index)
             headerObject.push({innerText:innerText, id:String(index), items:[]})
         }
         else if(headerObject.length > 0){
 
             const length = headerObject.length-1;
-            const newID = String(index) + "-" + String(headerObject[length].items.length);
-            header.id = newID;
-            headerObject[length].items.push({innerText:innerText, id:newID})
+            header.id = String(index);
+            headerObject[length].items.push({innerText:innerText, id:String(index)})
         }
     });
     return headerObject;
