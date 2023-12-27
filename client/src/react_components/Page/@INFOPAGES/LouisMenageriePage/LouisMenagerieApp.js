@@ -67,6 +67,7 @@ export default function LouisMenagerieApp(){
             <h2>Link</h2>
             <p>
                 <ul>
+                    <li>For the Github repo : <a href="https://github.com/LouisTheBest1231/LouisMenagerie.git">https://github.com/LouisTheBest1231/LouisMenagerie.git</a></li>
                     <li>To reach this website : <a href="https://louismenagerie-7ab6b928b594.herokuapp.com/">
                     https://louismenagerie-7ab6b928b594.herokuapp.com/</a></li>
                 </ul>

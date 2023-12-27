@@ -45,7 +45,7 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
                 </ul>
                 <ul>
                     Softwares
-                    <IndexModuleLink to={"/testingogre"} name={"Testing Ogre"}/>
+                    <IndexModuleLink to={"/testingdirectx11"} name={"Testing DirectX11"}/>
                 </ul>
                 <ul>
                     Webpages

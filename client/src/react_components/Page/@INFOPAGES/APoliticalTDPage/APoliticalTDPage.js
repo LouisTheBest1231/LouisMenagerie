@@ -47,6 +47,7 @@ export default function APoliticalTDPage(){
 
                 <ul>
                     <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
         </div>

@@ -1,5 +1,5 @@
 
-
+import Warning from "../../../HelperModules/Warning/Warning";
 
 export default function NBA2K2020Page(){
     return(
@@ -38,10 +38,13 @@ export default function NBA2K2020Page(){
             </p>
 
             <h2>Download</h2>
+            <Warning message={<div><i>Processing</i> takes a long time to load audio files. This means that the game takes a while to launch, 
+            don't be surprised!</div>}/>
             <p>
                 <span>N-B-A 2k20</span>'s build is available for Windows' platforms only
                 <ul>
                     <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
 
