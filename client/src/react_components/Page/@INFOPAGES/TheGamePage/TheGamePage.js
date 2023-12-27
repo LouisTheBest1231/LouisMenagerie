@@ -1,3 +1,4 @@
+import Warning from "../../../HelperModules/Warning/Warning";
 
 
 
@@ -46,10 +47,11 @@ export default function TheGamePage(){
             </p>
 
             <h2>Download</h2>
+            <Warning message={<div>You need <i>Android Studio</i> to build and download the project on an Android Device!</div>}/>
             <p>
                 <span>The Game</span>'s build is available for Android's platforms only
                 <ul>
-                    <li>For the functionnal build : </li>
+                    <li>For the Github repo :<a href="https://github.com/LouisTheBest1231/TheGame.git">https://github.com/LouisTheBest1231/TheGame.git</a> </li>
                 </ul>
             </p>
 

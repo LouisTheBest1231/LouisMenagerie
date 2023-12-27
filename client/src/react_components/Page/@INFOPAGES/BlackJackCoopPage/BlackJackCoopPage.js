@@ -47,6 +47,7 @@ export default function BlackJackCoopPage() {
                 <ul>
                     <li>For the BlackJack Coop <span>Server</span>'s build : </li>
                     <li>For the BlackJack Coop <span>Client</span>'s build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
             <h2>How to play</h2>

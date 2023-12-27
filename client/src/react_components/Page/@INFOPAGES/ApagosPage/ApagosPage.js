@@ -38,6 +38,7 @@ export default function ApagosPage(){
                 <span>Apagos</span>' build is available for Windows' platforms only
                 <ul>
                     <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
         </div>

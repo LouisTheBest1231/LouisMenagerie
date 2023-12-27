@@ -208,15 +208,23 @@ export default function NotASandboxPage(){
                 <span>I learned about PHYSICS.</span> Students often ask about the real use of what they learn in class. This is the real use of physics class!
                 I learned a lot from turning the theory into practice. I now understand much more the fundamental principles of newtonian motions!
             </p>
+
+
+
+
             <h2>Download</h2>
             <p>
                 <span>Not A Sandbox</span>'s build is available for Windows' platforms only
                 <ul>
                     <li>For the functionnal build :</li>
+                    <li>For the Github repo : <a href="https://github.com/P-B3117/Epic_project.git">https://github.com/P-B3117/Epic_project.git</a></li>
                     <li>For the complete document of my scientific part (in french) : <a href="https://docs.google.com/document/d/1nOGkvZa_MkgeXtLxxSsK4pTfUSH3R8DZxHDnAe4TeM8/edit?usp=sharing">https://docs.google.com/document/d/1nOGkvZa_MkgeXtLxxSsK4pTfUSH3R8DZxHDnAe4TeM8/edit?usp=sharing</a></li>
                     <li>For my video explaining my scientific part (in french) : <a href="https://www.youtube.com/watch?v=Eb09ooMk8_Y">https://www.youtube.com/watch?v=Eb09ooMk8_Y</a></li>
                 </ul>
             </p>
+
+
+
 
             <h2>Useful ressources</h2>
             <p>

@@ -52,7 +52,7 @@ export default function Page() {
                         <Route path="/consolesnake" element={<ConsoleSnakePage />} />
                         <Route path="/consolecalculator" element={<CalculatorPage />} />
                         <Route path="/consolehangman" element={<HangmanPage />} />
-                        <Route path="/testingogre" element={<OgreTestPage />} />
+                        <Route path="/testingdirectx11" element={<OgreTestPage />} />
                     </Routes>
                 </div>
                 <div className="page_toc">

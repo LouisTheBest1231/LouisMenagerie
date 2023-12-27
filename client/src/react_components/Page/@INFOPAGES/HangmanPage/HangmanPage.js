@@ -28,6 +28,7 @@ export default function HangmanPage(){
                 <span>Hangman</span>'s build is available for Windows' platforms only
                 <ul>
                     <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
         </div>

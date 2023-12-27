@@ -1,3 +1,4 @@
+import Warning from "../../../HelperModules/Warning/Warning";
 
 
 
@@ -5,18 +6,18 @@ export default function OgreTestPage(){
     return (
         <div className="contentpage">
 
-            <h1>Testing Ogre</h1>
+            <h1>Testing DirectX11</h1>
 
 
             <h2>Description</h2>
             <h5>Sadly, the project isn't about Shrek</h5>
             <p>
-                To be honest, <span>Testing Ogre</span> isn't really a software, it isn't even a game either. <span>Testing Ogre</span> is more 
-                like (like the name implied) a testing ground for the <a href="https://www.ogre3d.org/">Ogre3D</a> API. It is composed of a scene where 
+                To be honest, <span>Testing DirectX11</span> isn't really a software, it isn't even a game either. <span>Testing DirectX11</span> is more 
+                like (like the name implied) a testing ground for the <a href="https://www.microsoft.com/en-ca/download/details.aspx?id=17431">DirectX11</a> API. It is composed of a scene where 
                 a camera (the user) can navigate in a 3D environnment and observe different 3D phenomenons made with the API.
             </p>
             <p>
-                This 'testing scene' was made in pure programming with <i>Ogre3D</i> a very low-level wrapper of the <i>OpenGL</i> API. You can see it 
+                This 'testing scene' was made in pure programming with the <i>DirectX11</i> API and the <i>Win32</i> API. You can see it 
                 as an exploration of the tools for 3D graphics
             </p>
 
@@ -25,16 +26,20 @@ export default function OgreTestPage(){
             <h2>Things I learned</h2>
             <h5>The world of computer graphics is fascinating!</h5>
             <p>
-                <span>I learned about the MATH behind computer graphics.</span> Because <i>Ogre3D</i> is essentially a wrapper for the very low-level <i>OpenGL</i> API,
-                I had to research <i>OpenGL</i> itself. I made a lot of discoveries about the fundamental concepts of computer 3D graphics : <span>matrices, 
+                <span>I learned about the MATH behind computer graphics.</span>. I made a lot of discoveries about the fundamental concepts of computer 3D graphics : <span>matrices, 
                     vertices, indexes, normal maps, etc.</span> One of the most interesting subject was the lighting calculations <span>(specular, diffuse, ambient)
-                        </span> and their integration into shaders. This little project was an eye-opening experience. I really recommend this video series, made by YouTube 
-                        creator <a href="https://www.youtube.com/@javidx9">javidx9</a> : <a href="https://www.youtube.com/watch?v=ih20l3pJoeU">https://www.youtube.com/watch?v=ih20l3pJoeU</a>.
-                        The videos are a really good deep dive into the very basics of 3D graphics by creating a <span>Game Engine from scratch!</span> Very impressive stuff! <br></br>
-                        Another great ressource is the OpenGL tutorial : <a href="https://learnopengl.com/">Learn OpenGL</a>
+                        </span> and their integration into shaders. This little project was an eye-opening experience. 
             </p>
             <p>
-                <span>I learned a little more about GPU architecture.</span> <i>Ogre3D</i> and, by extension, <i>OpenGL</i>, force you to interact on a low-level
+                        I really recommend this video series, made by YouTube 
+                        creator <a href="https://www.youtube.com/@javidx9">javidx9</a> : <a href="https://www.youtube.com/watch?v=ih20l3pJoeU">https://www.youtube.com/watch?v=ih20l3pJoeU</a>.
+                        The videos are a really good deep dive into the very basics of 3D graphics by creating a <span>Game Engine from scratch!</span> Very impressive stuff! <br></br>
+                        Another great ressource is the OpenGL tutorial : <a href="https://learnopengl.com/">Learn OpenGL</a>. <span>However, the single best learning reference 
+                        is this</span> <a href="https://www.youtube.com/watch?v=_4FArgOX1I4">video series</a> by <a href="https://www.youtube.com/@ChiliTomatoNoodle">ChiliTomatoNoodle</a>. If you can
+                        get past his really dry (but great) sense of humour, you get access to a lot of valuable informations!
+            </p>
+            <p>
+                <span>I learned a little more about GPU architecture.</span> <i>Directx11</i> force you to interact on a low-level
                 basis with the GPU (for example : loading shaders), because <span>3D graphics are really GPU intensive.</span> For this reason, this project was a very good starting point
                 to learn more about GPUs.
             </p>
@@ -46,17 +51,18 @@ export default function OgreTestPage(){
                 <h3>For programming</h3>
                     <ul>
                         <li><a href="https://visualstudio.microsoft.com/fr/">Visual Studio</a></li>
-                        <li><a href="https://www.ogre3d.org/">Ogre3D</a></li>
-                        <li><a href="https://www.opengl.org/">OpenGL</a></li>
+                        <li><a href="https://www.microsoft.com/en-ca/download/details.aspx?id=17431">Directx11</a></li>
+                        <li><a href="https://learn.microsoft.com/en-us/windows/win32/api/">Win32L</a></li>
                     </ul>
             </p>
 
 
             <h2>Download</h2>
+            <Warning message={<div>I haven't been able to produce a functionning build of this project, ooops! You can still access the project's files</div>}/>
             <p>
-                <span>Testing Ogre</span>'s build is available for Windows' platforms only
+                
                 <ul>
-                    <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
 

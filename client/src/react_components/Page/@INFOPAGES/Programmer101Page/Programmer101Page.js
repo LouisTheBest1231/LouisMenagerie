@@ -74,6 +74,7 @@ export default function Programmer101Page(){
                 <span>Programmer 101</span>'s build is available for Windows' platforms only
                 <ul>
                     <li>For the functionnal build : </li>
+                    <li>For the project's files : </li>
                 </ul>
             </p>
         </div>
