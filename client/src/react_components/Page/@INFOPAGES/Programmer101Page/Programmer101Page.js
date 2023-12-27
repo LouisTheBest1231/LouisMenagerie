@@ -1,6 +1,12 @@
 import Warning from "../../../HelperModules/Warning/Warning";
 
+import movieDemo from "./Images/2023-12-27 15-04-07.mp4"
 
+import imageGameplay1 from "./Images/gameplay.png"
+import imageGameplay2 from "./Images/gameplay2.jpg"
+import imageGameplay3 from "./Images/gameplay3.jpg"
+import imageGameplay4 from "./Images/gameplay4.jpg"
+import imageGameplay5 from "./Images/gameplay5.jpg"
 
 export default function Programmer101Page(){
     return (
@@ -9,6 +15,9 @@ export default function Programmer101Page(){
 
             <Warning message={<div>The soundtrack of this game was taken from <a href="https://hempuli.com/baba/">Baba Is You</a> because my younger self wanted music in the game,
             but was no composer. Check out <a href="https://hempuli.com/baba/">Baba Is You</a>, it is a great game :)</div>}  />
+
+
+            <video controls><source src={movieDemo}></source></video>
 
             <h2>Description</h2>
             <h5>This project is weird</h5>
@@ -24,7 +33,15 @@ export default function Programmer101Page(){
                 tackles <span>variables, functions, conditionnal statements and loops!</span> The game can feel clunky, because it was made in <a href="https://www.processing.org/">Processing</a>,
                 but it holds up fairly well :).
             </p>
-            
+
+            <h3>Images of Gameplay</h3>
+            <p></p>
+            <img src={imageGameplay1} alt="Level 2"></img>
+            <img src={imageGameplay2} alt="Instructions"></img>
+            <img src={imageGameplay3} alt="Level Selection Menu"></img>
+            <img src={imageGameplay4} alt="Instructions for level 11"></img>
+            <img src={imageGameplay5} alt="Level 11"></img>
+
 
             <h2>Functionalities</h2>
                 <h5>Weird game, weird functionalities</h5>
@@ -73,8 +90,8 @@ export default function Programmer101Page(){
             <p>
                 <span>Programmer 101</span>'s build is available for Windows' platforms only
                 <ul>
-                    <li>For the functionnal build : </li>
-                    <li>For the project's files : </li>
+                    <li>For the functionnal build : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/Ee43jf-iQRFBmxuYLN0F5_0B4n2rZoHyAjMv0Om-cb9nQA?download=1">download</a></li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EXqxn0-3G_BHssVvYmSbNlMBJSM0oAgi8pTTR8DZfYRy6A?download=1">download</a></li>
                 </ul>
             </p>
         </div>

@@ -1,11 +1,11 @@
 
-
+import ImageHangman from "./Images/Hangman2.png"
 
 export default function HangmanPage(){
     return (
         <div className="contentpage">
             <h1>Hangman</h1>
-
+            <img src={ImageHangman}></img>
             <h2>Description</h2>
             <h5>Save the poor guy!</h5>
             <p>
@@ -27,8 +27,8 @@ export default function HangmanPage(){
             <p>
                 <span>Hangman</span>'s build is available for Windows' platforms only
                 <ul>
-                    <li>For the functionnal build : </li>
-                    <li>For the project's files : </li>
+                    <li>For the functionnal build : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EfTaWuK9OhNIsyAYi9NIhgcB4XPtGnLVUWqqCdi9NIAcEQ?download=1">download</a> </li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EZ5k2cBJnRlFittceNEEpzUBM-hOZTcvWDjE7pqZUdVYug?download=1">download</a></li>
                 </ul>
             </p>
         </div>

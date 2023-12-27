@@ -7,7 +7,7 @@ export default function OgreTestPage(){
         <div className="contentpage">
 
             <h1>Testing DirectX11</h1>
-
+            <video controls><source src="https://ulavaldti-my.sharepoint.com/:v:/g/personal/lemes3_ulaval_ca/ERJ1brct5StKiLQmsoIKjbMBf69fi1gbA2UqOobE5369JA?download=1"></source></video>
 
             <h2>Description</h2>
             <h5>Sadly, the project isn't about Shrek</h5>
@@ -62,7 +62,7 @@ export default function OgreTestPage(){
             <p>
                 
                 <ul>
-                    <li>For the project's files : </li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/ESdjUhOD65RApk2B5gM2L1UBNlxvQycnPkp_xX6LCCZFTQ?download=1">download</a></li>
                 </ul>
             </p>
 

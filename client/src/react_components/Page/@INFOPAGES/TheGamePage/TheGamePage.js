@@ -1,13 +1,21 @@
 import Warning from "../../../HelperModules/Warning/Warning";
 
-
+import imageGameplay1 from "./images/s1.jpg"
+import imageGameplay2 from "./images/s2.jpg"
+import imageGameplay3 from "./images/s3.jpg"
+import imageGameplay4 from "./images/s4.jpg"
+import imageGameplay5 from "./images/s5.jpg"
 
 export default function TheGamePage(){
 
     return (
         <div className="contentpage">
             <h1>The Game</h1>
-
+            
+            <div className="contentpage_phoneimg">
+                <img src={imageGameplay1} alt="gameplay of The Game"></img>
+            </div>
+            
             <h2>Description</h2>
             <h5>Incredible name for a game!</h5>
             <p>
@@ -21,7 +29,14 @@ export default function TheGamePage(){
                 was a fun experiment.
             </p>
 
-
+            <h3>Images of Gameplay</h3>
+            <p></p>
+            <div className="contentpage_phoneimg">
+                <img src={imageGameplay2} alt="gameplay of The Game"></img>
+                <img src={imageGameplay3} alt="gameplay of The Game"></img>
+                <img src={imageGameplay4} alt="gameplay of The Game"></img>
+                <img src={imageGameplay5} alt="gameplay of The Game"></img>
+            </div>
 
             <h2>Things I learned</h2>
             <p>

@@ -1,4 +1,4 @@
-
+import imageDemo from "./Images/Capture.PNG"
 
 
 export default function CalculatorPage(){
@@ -6,6 +6,7 @@ export default function CalculatorPage(){
         <div className="contentpage">
             <h1>Calculator</h1>
 
+            <img src={imageDemo} alt="Console Calculator"></img>
             <h2>Description</h2>
             <h5>Do I really need to describe what a calculator is?</h5>
             <p>
@@ -27,8 +28,8 @@ export default function CalculatorPage(){
             <p>
                 <span>Calculator</span>'s build is available for Windows' platforms only
                 <ul>
-                    <li>For the functionnal build : </li>
-                    <li>For the project's files : </li>
+                <li>For the functionnal build : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EQ3H9ub1pHJAuk-YM4hyhlkBpol0UtoosKTfbh72gJImmw?download=1">download</a></li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EbMkzsQoxDVGv0gjEb177awBeSTmvM7Lcvcmj1MJ8UEBmw?download=1">download</a></li>
                 </ul>
             </p>
 
