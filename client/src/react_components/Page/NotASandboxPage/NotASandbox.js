@@ -1,9 +1,10 @@
 
 import imageTitle from "./Images/notasandbox.png"
-import mouseHook from "./Images/Epic_project_-_testScene_-_Windows_Mac_Linux_-_Unity_2021.3.16f1_Personal__DX11__2023-04-11_00-47-50.mp4"
 import movieCollisionSolving from "./Images/movie_013.mp4"
 import movieFluidSimulation from "./Images/movie_015.mp4"
 import schematicsPicture from "./Images/Epson_021620231612061514.jpg"
+import movieSoftbody from "./Images/movie_017.mp4"
+import movieDemo from "./Images/movie_016.mp4"
 export default function NotASandboxPage(){
     return(
         <div className="contentpage">
@@ -37,8 +38,13 @@ export default function NotASandboxPage(){
                 <ul>
                     <li>Joints</li>
                     <li>Fluid dynamics</li>
+                    <li>Sofbodies</li>
+                    <li>Mesh Builder</li>
                 </ul>
-
+                <mathmiddle><span>Here's an early example of a softbody </span></mathmiddle>
+                <video controls><source src={movieSoftbody}></source></video>
+                <mathmiddle><span>Here's an example of the Mesh Builder </span></mathmiddle>
+                <video controls> <source src={movieDemo}></source></video>
                 
             </p>
 
@@ -209,7 +215,7 @@ export default function NotASandboxPage(){
                 I learned a lot from turning the theory into practice. I now understand much more the fundamental principles of newtonian motions!
             </p>
 
-
+        
 
 
             <h2>Download</h2>

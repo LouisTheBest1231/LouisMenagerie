@@ -1,5 +1,9 @@
 
-
+import imageGameplay1 from "./Images/g1.png"
+import imageGameplay2 from "./Images/g2.png"
+import imageGameplay3 from "./Images/g3.png"
+import imageGameplay4 from "./Images/g4.png"
+import imageGameplay5 from "./Images/g5.PNG"
 
 
 export default function ApagosPage(){
@@ -9,6 +13,7 @@ export default function ApagosPage(){
         <div className="contentpage">
             <h1>Apagos</h1>
 
+            <img src={imageGameplay1} alt="Menu screen of APAGOS"></img>
 
             <h2>Description</h2>
             <h5>Computer Board Game!!</h5>
@@ -18,6 +23,13 @@ export default function ApagosPage(){
                 allows for couch play.
                 There is some animations and <span>Drag and Drop</span> functionalities.
             </p>
+
+            <h3>Images of Gameplay</h3>
+            <p></p>
+            <img src={imageGameplay2} alt="board of APAGOS"></img>
+            <img src={imageGameplay3} alt="board of APAGOS"></img>
+            <img src={imageGameplay4} alt="rules of APAGOS"></img>
+            <img src={imageGameplay5} alt="settings of APAGOS"></img>
 
             <h2>Programs/Tools</h2>
             <h5>From scratch but not "really" from scratch</h5>
@@ -37,8 +49,8 @@ export default function ApagosPage(){
             <p>
                 <span>Apagos</span>' build is available for Windows' platforms only
                 <ul>
-                    <li>For the functionnal build : </li>
-                    <li>For the project's files : </li>
+                    <li>For the functionnal build : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EXhH1Xf7WPpPvrg05LS0PPABvaE84cSSrKil2d2E1fL59A?download=1">download</a></li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EVJVd-plfoJJibRRN350pMsBH3hnm67V45qrlnYtEwKz_A?download=1">download</a></li>
                 </ul>
             </p>
         </div>

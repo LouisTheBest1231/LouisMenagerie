@@ -54,7 +54,7 @@
 
 .contentpage mathmiddle{
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,6 +69,9 @@
     box-shadow: -2px 2px 5px var(--color-fg-1), 2px 2px 5px var(--color-fg-1);
 }
 
+.contentpage_phoneimg{
+    width: 30%;
+}
 .contentpage video{
     margin-top: 5px;
     margin-bottom: 5px;

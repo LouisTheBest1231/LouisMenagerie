@@ -1,10 +1,20 @@
 import Warning from "../../../HelperModules/Warning/Warning";
+import Menu1 from "./Images/Screenshot (152).png";
+import Menu2 from "./Images/Screenshot (155).png";
+import Menu3 from "./Images/Screenshot (156).png";
+import Gameplay1 from "./Images/Screenshot (158).png";
+import Gameplay2 from "./Images/Screenshot (159).png";
+import Gameplay3 from "./Images/Screenshot (163).png";
+
+import Server1 from "./Images/SERVER.png";
+import Server2 from "./Images/Server2.png";
 
 export default function BlackJackCoopPage() {
 
     return (
         <div className="contentpage">
             <h1>BlackJack Coop</h1>
+            <img src={Menu1}></img>
             <h2>Description</h2>
                 <h5>Black Jack, but, like, coop....</h5>
                 <p>As the very tasteful name implies, <span>BlackJack Coop</span> was about making a coop BlackJack game. After finishing a
@@ -15,6 +25,11 @@ export default function BlackJackCoopPage() {
                     the dealer (a simple bot) and they can see each other's cards. You can decide the amount of tokens you want to bet.
                 </p>
 
+            <h3>Images of UI</h3>
+            <p></p>
+
+            <img src={Menu2}></img>
+            <img src={Menu3}></img>
             <h2>Functionalities</h2>
                 <h5>How can a simple project be this complicated?</h5>
             <p>
@@ -22,8 +37,17 @@ export default function BlackJackCoopPage() {
                 <p>
                     The instance of the server .....
                 </p>
+                <mathmiddle><span>Examples of gameplay</span></mathmiddle>
+                <img src={Gameplay1}></img>
+                <img src={Gameplay2}></img>
+                <img src={Gameplay3}></img>
                 <h3>The Networking</h3>
-                <p></p>
+                <p>
+
+                </p>
+                <mathmiddle><span>Example of the server logs</span></mathmiddle>
+                <img src={Server2}></img>
+
             </p>
                 
             <h2>Programs/Tools</h2>
@@ -45,9 +69,8 @@ export default function BlackJackCoopPage() {
             <p>
                 <span>BlackJack Coop</span>'s build is available for Windows' platforms only
                 <ul>
-                    <li>For the BlackJack Coop <span>Server</span>'s build : </li>
-                    <li>For the BlackJack Coop <span>Client</span>'s build : </li>
-                    <li>For the project's files : </li>
+                    <li>For the BlackJack Coop <span>Server and Client</span>'s build : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EeQW-FunWCRLqn4oKY94uoAB2rdIyABjWZnJDJ6gr9iddw?download=1">download</a></li>
+                    <li>For the project's files : <a href="https://ulavaldti-my.sharepoint.com/:u:/g/personal/lemes3_ulaval_ca/EaOcvnE7cdNDjz-5Vf7gQa4BQD5jYBIjz5iRjl5AUl1_gg?download=1">download</a></li>
                 </ul>
             </p>
             <h2>How to play</h2>
