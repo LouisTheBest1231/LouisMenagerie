@@ -1,11 +1,11 @@
-
+import Warning from "../../../HelperModules/Warning/Warning"
 import ImageHangman from "./Images/Hangman2.png"
 
 export default function HangmanPage(){
     return (
         <div className="contentpage">
             <h1>Hangman</h1>
-            <img src={ImageHangman}></img>
+            <img src={ImageHangman} alt="Little demo of the hangman game"></img>
             <h2>Description</h2>
             <h5>Save the poor guy!</h5>
             <p>
@@ -24,6 +24,7 @@ export default function HangmanPage(){
             </p>
 
             <h2>Download</h2>
+            <Warning message={<div>This application was made with <i>C#</i>. So, you need the .Net module on your computer to run it!</div>}/>
             <p>
                 <span>Hangman</span>'s build is available for Windows' platforms only
                 <ul>

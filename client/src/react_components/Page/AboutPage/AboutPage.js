@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import "../Contentpage.css"
 
 export default function AboutPage(){
@@ -19,7 +18,7 @@ export default function AboutPage(){
             </p>
 
             <h2>Who am I?</h2>
-            <h5>I'm Spiderman</h5>
+            <h5>Name's Louis</h5>
             <p>
                 As you probably figured it out already {" (because you are a smart person) "}, my name's Louis. I was born and raised in Quebec, the awesome and mostly obscure french speaking part of Canada.
                 I spent my childhood fighting polar bears and eating poutine while learning the beautiful Quebecois french. However, as of now, as a grown adult, I am currently studying <span>Software Engineering</span> at <span>Université Laval</span>.

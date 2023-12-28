@@ -4,6 +4,7 @@ import imageGameplay3 from "./images/g3.png"
 import imageGameplay4 from "./images/g4.PNG"
 
 import movieDemo from "./images/2023-12-27 16-27-09.mp4"
+import Warning from "../../../HelperModules/Warning/Warning"
 
 export default function ConsoleSnakePage(){
     return (
@@ -36,6 +37,8 @@ export default function ConsoleSnakePage(){
             </p>
 
             <h2>Download</h2>
+            <Warning message={<div>This application was made with <i>C#</i>. So, you need the .Net module on your computer to run it!</div>}/>
+            
             <p>
                 <span>Snake!!</span>'s build is available for Windows' platforms only
                 <ul>

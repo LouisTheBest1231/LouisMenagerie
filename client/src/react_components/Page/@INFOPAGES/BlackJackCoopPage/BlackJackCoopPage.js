@@ -6,7 +6,6 @@ import Gameplay1 from "./Images/Screenshot (158).png";
 import Gameplay2 from "./Images/Screenshot (159).png";
 import Gameplay3 from "./Images/Screenshot (163).png";
 
-import Server1 from "./Images/SERVER.png";
 import Server2 from "./Images/Server2.png";
 
 export default function BlackJackCoopPage() {
@@ -14,7 +13,7 @@ export default function BlackJackCoopPage() {
     return (
         <div className="contentpage">
             <h1>BlackJack Coop</h1>
-            <img src={Menu1}></img>
+            <img src={Menu1} alt="Main menu"></img>
             <h2>Description</h2>
                 <h5>Black Jack, but, like, coop....</h5>
                 <p>As the very tasteful name implies, <span>BlackJack Coop</span> was about making a coop BlackJack game. After finishing a
@@ -28,25 +27,39 @@ export default function BlackJackCoopPage() {
             <h3>Images of UI</h3>
             <p></p>
 
-            <img src={Menu2}></img>
-            <img src={Menu3}></img>
+            <img src={Menu2} alt="Join Room menu"></img>
+            <img src={Menu3} alt="Room lobby"></img>
             <h2>Functionalities</h2>
                 <h5>How can a simple project be this complicated?</h5>
             <p>
                 <h3>The Bot</h3>
                 <p>
-                    The instance of the server .....
+                    Because <span>I wanted to reproduce the unfairness of BlackJack</span>, the dealer is controlled by a bot script that looks
+                    through the deck to optimise his draws. The bot's goal is to maximise his wins by beating the most players possible. This 
+                    script runs in the server instance and emits the result to the clients.
                 </p>
                 <mathmiddle><span>Examples of gameplay</span></mathmiddle>
-                <img src={Gameplay1}></img>
-                <img src={Gameplay2}></img>
-                <img src={Gameplay3}></img>
+                <img src={Gameplay1} alt="Start of game"></img>
+                <img src={Gameplay2} alt="Setting the bets"></img>
+                <img src={Gameplay3} alt="Dealer is drawing"></img>
+
+
                 <h3>The Networking</h3>
                 <p>
-
+                    Man, <span>Networking is haaaaaard!</span>. I was used to making singleplayer experiences, but networked multiplayer is something else!
+                    You <i>HAVE</i> to rethink the complete architecture of your application to make it work. I decided for the Server/Client architecture because I though it 
+                    was the simplest solution for efficient networking. <span>It did work!</span> But it was difficult working with two parrallel projects : <span>The Server 
+                        and the Client</span>.
+                </p>
+                <p>
+                    It was a real blessing that <i>Qt</i> has pretty good networking tools that allows 
+                    for <span>easy TCP communication</span> and that <i>Qt</i> is mostly Event Based. 
+                    Those features improved drastically my workflow. Another important aspect of my workflow was the <span>Server Logs</span>.
+                    As dumb as it can sound, <span>Server Logs</span> are such an important tool for debugging! I would have never finished this 
+                    project without this tool. 
                 </p>
                 <mathmiddle><span>Example of the server logs</span></mathmiddle>
-                <img src={Server2}></img>
+                <img src={Server2} alt="Server logs"></img>
 
             </p>
                 

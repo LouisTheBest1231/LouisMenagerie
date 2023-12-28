@@ -1,3 +1,4 @@
+import Warning from "../../../HelperModules/Warning/Warning";
 import imageDemo from "./Images/Capture.PNG"
 
 
@@ -25,6 +26,7 @@ export default function CalculatorPage(){
             </p>
 
             <h2>Download</h2>
+            <Warning message={<div>This application was made with <i>C#</i>. So, you need the .Net module on your computer to run it!</div>}/>
             <p>
                 <span>Calculator</span>'s build is available for Windows' platforms only
                 <ul>
