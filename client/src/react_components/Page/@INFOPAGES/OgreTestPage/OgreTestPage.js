@@ -7,7 +7,9 @@ export default function OgreTestPage(){
         <div className="contentpage">
 
             <h1>Testing DirectX11</h1>
-            <video controls><source src="https://ulavaldti-my.sharepoint.com/:v:/g/personal/lemes3_ulaval_ca/ERJ1brct5StKiLQmsoIKjbMBf69fi1gbA2UqOobE5369JA?download=1"></source></video>
+            <video controls><source src="https://www.louismenagerie.com/videos/video_testingdirectx11_1.mp4"></source></video>
+
+
 
             <h2>Description</h2>
             <h5>Tests! Woohoo!</h5>
