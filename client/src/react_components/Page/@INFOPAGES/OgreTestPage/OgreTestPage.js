@@ -10,7 +10,7 @@ export default function OgreTestPage(){
             <video controls><source src="https://ulavaldti-my.sharepoint.com/:v:/g/personal/lemes3_ulaval_ca/ERJ1brct5StKiLQmsoIKjbMBf69fi1gbA2UqOobE5369JA?download=1"></source></video>
 
             <h2>Description</h2>
-            <h5>Sadly, the project isn't about Shrek</h5>
+            <h5>Tests! Woohoo!</h5>
             <p>
                 To be honest, <span>Testing DirectX11</span> isn't really a software, it isn't even a game either. <span>Testing DirectX11</span> is more 
                 like (like the name implied) a testing ground for the <a href="https://www.microsoft.com/en-ca/download/details.aspx?id=17431">DirectX11</a> API. It is composed of a scene where 
