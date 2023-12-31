@@ -2,12 +2,17 @@ import { useEffect, useState } from "react";
 import CustomLink from "../HelperModules/CustomLink";
 import "./IndexModule.css"
 
-
+//React Module that renders 
+// the Navigation Bar on the Left (big viewport width)
+// OR
+// The Hamburger up right (small viewport width)
 export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
 
     let radius = 5;
     
     const [indexModuleClass, setIndexModuleClass] = useState("indexmodule");
+
+    //Set the good className of the React Module based on the state of DROPDOWN and SCREENSHORT
     useEffect(()=>{
         if(isDropDown && isScreenShort){
             setIndexModuleClass("indexmodule_short");
@@ -16,16 +21,17 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
             setIndexModuleClass("indexmodule_short_hidden");
         }
         else{
-
             setIndexModuleClass("indexmodule");
         }
     }, [isScreenShort, isDropDown]);
 
+    //Close drop down if screenWidth becomes big
     useEffect(()=>{
         if(!isScreenShort){
             setIsDropDown(false);
         }
     }, [isScreenShort]);
+
 
     return(
         <div className={indexModuleClass}>
@@ -68,6 +74,8 @@ export default function IndexModule({isDropDown, setIsDropDown, isScreenShort}){
     );
 
 
+
+    //Helper functions to simplify the JSX
     function onClick(){
         setIsDropDown(false);
         

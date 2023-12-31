@@ -1,5 +1,7 @@
 import "./Warning.css"
 
+
+//Warning variant with a red color
 export default function WarningImportant({message}){
 
     return (

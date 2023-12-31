@@ -1,6 +1,7 @@
 import "./Warning.css"
 
-
+//React Module to put in the content of pages
+//****************Acts as a text highlight with a yellow indicator
 export default function Warning({message}){
 
     return (

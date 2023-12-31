@@ -2,7 +2,9 @@ import { useEffect, useState } from "react";
 
 
 
-
+//Custom React Hook that returns if the viewport width is shorter than 700px :
+// -----True :  screenWidth <= 700
+// -----False : screenWidth >  700
 export default function useScreenShort(){
 
     const smallScreenSize = 700;
