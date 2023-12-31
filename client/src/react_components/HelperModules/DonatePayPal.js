@@ -10,7 +10,7 @@ export default function DonatePayPal({className}){
     useEffect(()=>{
         donate_button.current -= window.PayPal.Donation.Button({
             env:'production',
-        hosted_button_id:'K5DA362XRR5QL',
+        hosted_button_id:'K4AGYG4CJ7J3J',
         image: {
         src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
         alt:'Donate with PayPal button',
