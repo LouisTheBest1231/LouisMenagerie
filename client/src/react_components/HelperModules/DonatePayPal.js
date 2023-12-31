@@ -1,12 +1,15 @@
 import { useEffect,useRef } from "react";
 
+
+//React Module for the PayPal button of the 'DonatePage'
+//**************************Uses the PayPal SDK********
 export default function DonatePayPal({className}){
     
     const donate_button = useRef(null)
     let button_id = "donation_button_id"
     useEffect(()=>{
         donate_button.current -= window.PayPal.Donation.Button({
-            env:'sandbox',
+            env:'production',
         hosted_button_id:'K5DA362XRR5QL',
         image: {
         src:'https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif',
@@ -15,6 +18,7 @@ export default function DonatePayPal({className}){
         },}).render("#" + button_id)
 
         return ()=>{
+            //Destructor to remove all instances of the button on the page : necessary to prevent weird behavior
             const div = document.getElementById(button_id)
             if(div){
                 while(div.firstChild){

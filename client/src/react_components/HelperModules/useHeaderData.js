@@ -4,7 +4,11 @@ import { useLocation } from "react-router-dom";
 
 
 
+//Custom Hook that return a JS object with a Header hierarchie (H2 : {H3, H3, H3}, H2:{H3}, etc.)
+/*Used for the TableOfContent
+ *I made it using a lot of internet ressources because I wasn't familiar with Node Objects
 
+*/
 export default function useHeaderData(){
 
     const [headerList, setHeaderList] = useState([])
@@ -23,6 +27,7 @@ export default function useHeaderData(){
 }
 
 
+//Helper Function that creates the Header Hierarchy
 function MakeHeaderList(headerData){
 
     const headerObject = []

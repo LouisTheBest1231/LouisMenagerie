@@ -23,6 +23,7 @@ import OgreTestPage from "./@INFOPAGES/OgreTestPage/OgreTestPage";
 import TableOfContent from "./TableOfContent/TableOfContent";
 
 
+//React Module of the Content Page, contains the Page, the Footer and the TableOfContent
 export default function Page() {
 
     //Makes the windows scroll to top when route change
@@ -35,6 +36,8 @@ export default function Page() {
         <div className="page">
 
             <div className="page_horizontal">
+
+                {/*Render the content of the page based on the path*/}
                 <div className="page_content">
                     <Routes>
                         <Route exact path="/" element={<AboutPage />} />
@@ -55,8 +58,9 @@ export default function Page() {
                         <Route path="/testingdirectx11" element={<OgreTestPage />} />
                     </Routes>
                 </div>
+
                 <div className="page_toc">
-                    <TableOfContent/>
+                    <TableOfContent />
                 </div>
             </div>
             <Footer />
