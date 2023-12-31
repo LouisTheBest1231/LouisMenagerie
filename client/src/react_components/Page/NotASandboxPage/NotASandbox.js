@@ -206,7 +206,7 @@ export default function NotASandboxPage(){
             <p>
                 <span>I learned about TEAMWORK.</span> I wasn't used to working alongside other programmers because my other projects consisted mainly
                 of personnel stuff. So, for the short 5 month that <span>Not A Sandbox</span> lasted, I had to learn to adapt. I had to accept the 
-                diverging opinions, the differents abilities and the different interests of my teammates. At the end, it was a real pleasure working with them, 
+                diverging opinions, the different abilities and the different interests of my teammates. At the end, it was a real pleasure working with them, 
                 and a very fruitful experience. 
             </p>
 
