@@ -7,3 +7,4 @@ Showcase Website of all my little projects! Nothing mind blowing but simply the 
     1. CloudFlare : For redirect
     2. SquareSpace : For the domain name
 - Hosting : Heroku
+- Search engines : The site was added to google.com
