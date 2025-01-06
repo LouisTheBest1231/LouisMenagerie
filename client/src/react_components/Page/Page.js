@@ -21,6 +21,7 @@ import CalculatorPage from "./@INFOPAGES/CalculatorPage/CalculatorPage";
 import HangmanPage from "./@INFOPAGES/HangmanPage/HangmanPage";
 import OgreTestPage from "./@INFOPAGES/OgreTestPage/OgreTestPage";
 import TableOfContent from "./TableOfContent/TableOfContent";
+import FreeCarvePage from "./@INFOPAGES/FreeCarvePage/FreeCarvePage";
 
 
 //React Module of the Content Page, contains the Page, the Footer and the TableOfContent
@@ -49,6 +50,7 @@ export default function Page() {
                         <Route path="/louismenagerie" element={<LouisMenagerieApp />} />
                         <Route path="/nba2k" element={<NBA2K2020Page />} />
                         <Route path="/rpg" element={<ABoringRPGPage />} />
+                        <Route path="/freecarve" element={<FreeCarvePage/>}/>
                         <Route path="/td" element={<APoliticalTDPage />} />
                         <Route path="/thegame" element={<TheGamePage />} />
                         <Route path="/apagos" element={<ApagosPage />} />
