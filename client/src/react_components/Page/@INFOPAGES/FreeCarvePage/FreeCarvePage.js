@@ -9,7 +9,7 @@ export default function FreeCarvePage(){
             <Warning message={<div>
                 This is a school project and is a result of the effort of me and my 4 other team members : 
                 
-                 <b>Adam Côté, Antoine Morin, Kamran Charles Nayebi, Sébastien Dubé</b>. Big thanks to them and their efforts,
+                 <b>Adam Côté, Antoine Morin, Sophie Charles Nayebi, Sébastien Dubé</b>. Big thanks to them and their efforts,
                 otherwise, this project wouldn't have been possible.
             </div>}/>
 
@@ -21,7 +21,7 @@ export default function FreeCarvePage(){
             <p>
                 Free Carve is the final result of a session worth of efforts for the class 
                 <span> Software Engineering Object Oriented</span>. It was a very tedious class with a heavy load of homework but the amazing 
-                team I was with, made it bearable. Once again, big thanks to <span><b>Adam Côté, Antoine Morin, Kamran Charles Nayebi, Sébastien Dubé</b></span>.
+                team I was with, made it bearable. Once again, big thanks to <span><b>Adam Côté, Antoine Morin, Sophie Charles Nayebi, Sébastien Dubé</b></span>.
                 You boys and gals rock!
             </p>
             <h3>What is Free Carve?</h3>
